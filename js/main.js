@@ -134,4 +134,7 @@
 
     $('div.container div.card[data-type=tags]').addClass('is-hidden-mobile');
     $('div.container div.card[data-type=archives]').addClass('is-hidden-mobile');
+    $('div.container div.card[data-type=recent_posts]').addClass('is-hidden-mobile');
+    $('div.container div.card[data-type=categories]').addClass('is-hidden-mobile');
+    $('div.container div.card[data-type=links]').addClass('is-hidden-mobile');
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));
