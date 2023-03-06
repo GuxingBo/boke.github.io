@@ -11401,6 +11401,10 @@ figure.highlight.foldable div.level-left {
   background: #e7e7e7;
   color: $white-invert;
 }
+#toc {
+  max-height: calc(100vh - 22px);
+  overflow-y: scroll;
+}
 .level.is-multiline {
   flex-wrap: wrap;
 }
@@ -11435,10 +11439,6 @@ figure.highlight.foldable div.level-left {
   .widget.card#toc.is-active,
   #toc-mask.is-active {
     display: block;
-  }
-  #toc {
-    max-height: calc(100vh - 22px);
-    overflow-y: scroll;
   }
 }
 .donate {
